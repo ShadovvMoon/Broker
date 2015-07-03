@@ -25,7 +25,7 @@
  */
 
 var root 				 = module.exports;
-var experiment_store 	 = require('ministore')('database/experiments');
+var experiment_store 	 = require('./ministore')('database/experiments');
 var experimentDictionary = {};
 
 //Clear the experiment dictionary 
